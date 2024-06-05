@@ -1,0 +1,19 @@
+#
+# docker-compose.yml
+version: '3'
+services:
+  digital-twin:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - cron-scheduler
+    environment:
+      - GOOGLE_DRIVE_CREDENTIALS=<your_credentials>
+      - GOOGLE_DRIVE_SERVICE_ACCOUNT_EMAIL=<your_service_account_email>
+      - GOOGLE_DRIVE_SERVICE_ACCOUNT_PRIVATE_KEY=<your_service_account_private_key>
+
+  cron-scheduler:
+    build: .
+    environment:
+      - CRON_SCHEDULE=<your_cron_schedule>

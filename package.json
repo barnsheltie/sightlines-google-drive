@@ -1,0 +1,30 @@
+{
+  "name": "sightlines-google-drive",
+  "version": "1.0.0",
+  "description": "AI generated code for google drive digital twin",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barnsheltie/sightlines-google-drive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barnsheltie/sightlines-google-drive/issues"
+  },
+  "homepage": "https://github.com/barnsheltie/sightlines-google-drive#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "googleapis": "^139.0.0",
+    "npm": "^10.8.1"
+  }
+}
