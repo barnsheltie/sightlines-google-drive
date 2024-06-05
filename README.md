@@ -2,7 +2,21 @@
 AI generated code for google drive digital twin
 
 ### Prompt
+~~~
+Got it! So, the digital twin will be an array of user meta-data, where each element represents a user's Google Drive metadata. The metadata for each user will include:
+User Meta-data:
+Total Number of Files: The total number of files in the user's Google Drive.
+Total Number of Folders: The total number of folders in the user's Google Drive.
+Folder Meta-data: An array of folder meta-data, where each element represents a folder and contains:
+Folder URL: The URL of the folder.
+Folder Contents: An array of items (files and subfolders) in the folder, with each item represented by its URL.
+Item Access Permissions: An array of users who have access permissions for each item (file or folder), represented by their user IDs or emails.
+This digital twin will provide a comprehensive representation of the users' Google Drive metadata, allowing for efficient synchronization and management of user data.
+Next Steps:
 
+
+
+~~~
 
 
 ### What else?This is just a basic code structure to get you started. You still need to implement the logic for:
